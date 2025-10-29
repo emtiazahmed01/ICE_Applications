@@ -47,7 +47,7 @@ A comprehensive online document withdrawal and application management system bui
 - **Frontend:** HTML5, CSS3, JavaScript  
 - **Backend:** PHP  
 - **Database:** MySQL  
-- **Additional Tools:** ChatGPT & Google for development assistance  
+- **Additional Tools:** AI & Google for development assistance  
 
 ---
 
