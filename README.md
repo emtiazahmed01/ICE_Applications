@@ -85,5 +85,5 @@ A comprehensive online document withdrawal and application management system bui
 ## 📄 License
 This project is developed for **academic purposes**. All rights reserved by the development team.
 
-> 📝 **Note:** This project is a collaborative effort between *Mithila Jahan Choity* and *Your Name*, under the supervision of *Md. Sabbir Ejaj*.  
+> 📝 **Note:** This project is a collaborative effort between *Mithila Jahan Choity* and *Emtiaz Ahmed*, under the supervision of *Md. Sabbir Ejaj*.  
 > The primary credit for the project architecture and core development goes to *Mithila Jahan Choity*.
