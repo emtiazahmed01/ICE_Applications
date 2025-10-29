@@ -1,7 +1,7 @@
 <?php
 session_start();
 // Database connection
-$conn = new mysqli("sql206.infinityfree.com", "if0_40132910", "2beornot2be2001", "if0_40132910_nstu_db");
+$conn = new mysqli("", "", "", "");
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
