@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./images/favicon.ico">
+  <title>Signup - ICE Applications</title>
+  <link rel="stylesheet" href="./header.css" />
+  <link rel="stylesheet" href="./project.css" />
+  <link rel="stylesheet" href="./footer.css" />
+  <link rel="stylesheet" href="./backtotop.css" />
+</head>
+<body class="auth-page">
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <a href="./index.html"><img src="./images/logo.png" alt="NSTU Logo" /></a>
+      <h1>NOAKHALI SCIENCE AND TECHNOLOGY UNIVERSITY</h1>
+    </div>
+    <div class="contact">
+      <div>📞 02334496522 | 88027791052</div>
+      <div>✉️ registrar@office.nstu.edu.bd</div>
+      <div class="auth-buttons">
+        <button class="login" onclick="window.location.href='./login.html'">Login</button>
+        <button class="signup" onclick="window.location.href='./signup.html'">Signup</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Signup Form -->
+  <div class="auth-box">
+    <h2>Signup</h2>
+    <form action="./signup.php" method="POST">
+
+      <!-- Personal Information -->
+      <div class="section-title">Personal Information</div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required />
+
+      <label for="blood">Blood Group:</label>
+      <select id="blood" name="blood" required>
+        <option value="">Select</option>
+        <option>A+</option><option>A-</option><option>B+</option><option>B-</option>
+        <option>AB+</option><option>AB-</option><option>O+</option><option>O-</option>
+      </select>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="">Select</option>
+        <option>Male</option><option>Female</option><option>Other</option>
+      </select>
+
+      <!-- Academic Information -->
+      <div class="section-title">Academic Information</div>
+      <label for="faculty">Faculty:</label>
+      <select id="faculty" name="faculty" required>
+        <option value="">Select Faculty</option>
+        <option>Engineering and Technology</option>
+        <option>Science</option>
+        <option>Life Science</option>
+        <option>Business Administration</option>
+        <option>Social Science and Humanities</option>
+        <option>Education Sciences</option>
+        <option>Law</option>
+        <option>Earth and Ocean Sciences</option>
+        <option>Health Science</option>
+      </select>
+
+      <label for="department">Department:</label>
+      <input type="text" id="department" name="department" required />
+
+      <label for="level">Level:</label>
+      <select id="level" name="level" required>
+        <option value="">Select</option>
+        <option>Honors</option>
+        <option>Masters</option>
+      </select>
+
+      <label for="year">Year:</label>
+      <input type="number" id="year" name="year" min="1" max="5" required />
+
+      <label for="term">Term:</label>
+      <input type="text" id="term" name="term" required />
+
+      <label for="studentid">Student ID:</label>
+      <input type="text" id="studentid" name="studentid" required />
+
+      <!-- Login Information -->
+      <div class="section-title">Login Information</div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+
+      <label for="confirmpassword">Confirm Password:</label>
+      <input type="password" id="confirmpassword" name="confirmpassword" required />
+
+      <!-- Submit Button -->
+      <button type="submit">Create Account</button>
+
+      <!-- Footer Note -->
+      <div class="footer-note">
+        Already have an account? <a href="./login.html">Login here</a>
+      </div>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col">
+          <h4>SOCIAL LINK</h4>
+          <ul class="social-links">
+            <li><a href="#"><i class="fa fa-facebook"></i> FACEBOOK</a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i> TWITTER</a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i> INSTAGRAM</a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i> LINKEDIN</a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i> GOOGLE +</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>USEFUL LINKS</h4>
+          <ul>
+            <li><a href="#">UGC</a></li>
+            <li><a href="#">Ministry of Education</a></li>
+            <li><a href="#">Office of Chancellor</a></li>
+            <li><a href="#">Office of Prime Minister</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>CENTER</h4>
+          <ul>
+            <li><a href="#">Research Cell</a></li>
+            <li><a href="#">Cyber Center</a></li>
+            <li><a href="#">IQAC</a></li>
+            <li><a href="#">ICT Cell</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>FACILITIES</h4>
+          <ul>
+            <li><a href="#">Hall of Residence</a></li>
+            <li><a href="#">Medical Center</a></li>
+            <li><a href="#">Central Library</a></li>
+            <li><a href="#">Auditorium</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>HELP & CONTACT</h4>
+          <ul>
+            <li><i class="fa fa-map-marker"></i> Postal Code: 3814</li>
+            <li><i class="fa fa-phone"></i> Phone: +88-0321-72720</li>
+            <li><i class="fa fa-envelope"></i> Email: info@nstu.edu.bd</li>
+            <li><i class="fa fa-globe"></i><a href="https://nstudiary.nstu.edu.bd/" target="_blank">NSTU Diary Web Version</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 NSTU. All Rights Reserved.</p>
+        <p>Developed By: <a href="#" target="_blank">Mithila Jahan Choity<br>& Emtiaz</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Password Match Script -->
+  <script>
+    document.querySelector("form").addEventListener("submit", function (e) {
+      const password = document.getElementById("password").value;
+      const confirmPassword = document.getElementById("confirmpassword").value;
+
+      if (password !== confirmPassword) {
+        alert("Passwords do not match!");
+        e.preventDefault();
+      }
+    });
+  </script>
+</body>
+</html>
