@@ -13,6 +13,18 @@ A comprehensive online document withdrawal and application management system bui
 
 ---
 
+## 📸 Screenshots  
+
+| | |
+|:--:|:--:|
+| ![Home Page](https://github.com/user-attachments/assets/c326d407-18b7-4fab-9090-709502fbc21f) | ![Dashboard](https://github.com/user-attachments/assets/b3cff6a3-9e11-4417-9aa4-9f70278965f8) |
+| ![Book Catalog](https://github.com/user-attachments/assets/e903bf03-e2ff-483a-a575-056c2bbda142) | ![Notice Board](https://github.com/user-attachments/assets/6f7af5be-77cc-4bd7-9235-71d6065c6352) |
+| ![Forms Page](https://github.com/user-attachments/assets/e2b1ffa7-ebbc-4177-a24d-b690bba0793f) | ![Admin Panel](https://github.com/user-attachments/assets/8bf30a7c-1768-4aa6-8939-5d8c0dc346b2) |
+
+*(More screenshots available in the repository.)*
+
+---
+
 ## 📋 Project Overview
 **Documents ICE** is a web-based application that streamlines the process of requesting and managing academic documents like certificates, marksheets, and transcripts. The system provides separate interfaces for students and administrators with secure authentication and payment integration.
 
