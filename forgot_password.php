@@ -9,7 +9,7 @@ if(isset($_POST['email'])){
     $email = $_POST['email'];
 
     // Database connection
-$conn = new mysqli("sql206.infinityfree.com", "if0_40132910", "2beornot2be2001", "if0_40132910_nstu_db");
+$conn = new mysqli("", "", "", "");
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
@@ -36,12 +36,12 @@ if ($conn->connect_error) {
             $mail->isSMTP();
             $mail->Host       = 'smtp.gmail.com';
             $mail->SMTPAuth   = true;
-            $mail->Username   = 'officeicedept@gmail.com';
-            $mail->Password   = 'awhiltcnvtplzdhu'; 
+            $mail->Username   = '';
+            $mail->Password   = ''; 
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port       = 587;
 
-            $mail->setFrom('officeicedept@gmail.com', 'NSTU System');
+            $mail->setFrom('', 'NSTU System');
             $mail->addAddress($email);
 
             $mail->isHTML(true);
@@ -263,7 +263,7 @@ if ($conn->connect_error) {
 
     <div class="footer-bottom">
       <p>© 2025 NSTU. All Rights Reserved.</p>
-      <p>Developed By: <a href="#" target="_blank">Mithila Jahan Choity</a></p>
+      <p>Developed By: <a href="#" target="_blank">Mithila Jahan Choity<br>& Emtiaz</a></p>
     </div>
   </div>
 </footer>
