@@ -79,11 +79,6 @@ A comprehensive online document withdrawal and application management system bui
 
 ---
 
-## 📞 Support
-For technical support or queries regarding this project, please contact the development team.
-
----
-
 ## 📄 License
 This project is developed for **academic purposes**. All rights reserved by the development team.
 
