@@ -24,7 +24,7 @@ A comprehensive online document withdrawal and application management system bui
 **Mithila Jahan Choity** – Full-stack development and project architecture
 
 ### 👩‍💻 Co-Developer & UI Contributor
-**Your Name** – Dashboard UI redesign and backend logic enhancements
+**Emtiaz Ahmed** – Dashboard UI redesign and backend logic enhancements
 
 ### 🧑‍🏫 Project Supervisor
 **Md. Sabbir Ejaj** – Project guidance and supervision
@@ -67,53 +67,6 @@ A comprehensive online document withdrawal and application management system bui
 - Optimized backend logic for better performance  
 - Assisted in payment system integration  
 - Contributed to database design and queries  
-
----
-
-## 🚀 Installation & Setup
-
-### ✅ Prerequisites
-- Web server (Apache/Nginx)  
-- PHP 8.0 or higher  
-- MySQL database  
-- Modern web browser  
-
-### 🧩 Database Setup
-```sql
-CREATE DATABASE documents_ice;
--- Import provided SQL schema
-```
-
-### ⚙️ Configuration
-- Update database credentials in `config.php`  
-- Configure payment gateway settings  
-- Set up email services for notifications  
-
----
-
-## 📁 Project Structure
-
-```
-documents-ice/
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
-├── admin/
-│   ├── dashboard.php
-│   ├── applications.php
-│   └── payments.php
-├── student/
-│   ├── dashboard.php
-│   ├── apply.php
-│   └── payment-history.php
-├── includes/
-│   ├── config.php
-│   ├── auth.php
-│   └── functions.php
-└── database/
-    └── schema.sql
-```
 
 ---
 
