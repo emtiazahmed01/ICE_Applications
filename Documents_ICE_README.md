@@ -70,15 +70,6 @@ A comprehensive online document withdrawal and application management system bui
 
 ---
 
-## 🔐 Security Features
-- Secure user authentication  
-- SQL injection prevention  
-- XSS protection  
-- Session management  
-- Payment security protocols  
-
----
-
 ## 📄 License
 This project is developed for **academic purposes**. All rights reserved by the development team.
 
