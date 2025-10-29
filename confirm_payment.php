@@ -5,10 +5,10 @@ use PHPMailer\PHPMailer\Exception;
 
 require 'vendor/autoload.php'; // PHPMailer autoload
 
-$servername = "sql206.infinityfree.com";
-$username = "if0_40132910";
-$password = "2beornot2be2001";
-$dbname = "if0_40132910_nstu_db";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
@@ -57,12 +57,12 @@ if ($stmt->execute()) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'officeicedept@gmail.com'; // Admin Gmail
-        $mail->Password   = 'awhiltcnvtplzdhu';        // App password
+        $mail->Username   = ''; // Admin Gmail
+        $mail->Password   = '';        // App password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
-        $mail->setFrom('officeicedept@gmail.com', 'NSTU Payment System');
+        $mail->setFrom('', 'NSTU Payment System');
         $mail->addAddress($student_email, $student_name);
 
         $mail->isHTML(true);
