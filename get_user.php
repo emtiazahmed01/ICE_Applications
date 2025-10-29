@@ -2,10 +2,10 @@
 session_start();
 header('Content-Type: application/json');
 
-$servername = "sql206.infinityfree.com";
-$username = "if0_40132910";
-$password = "2beornot2be2001";
-$dbname = "if0_40132910_nstu_db";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Connect to database
 $conn = new mysqli($servername, $username, $password, $dbname);
