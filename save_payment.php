@@ -13,7 +13,7 @@ if (!isset($_SESSION['email'])) {
 }
 
 // Database connection
-$conn = new mysqli("sql206.infinityfree.com", "if0_40132910", "2beornot2be2001", "if0_40132910_nstu_db");
+$conn = new mysqli("", "", "", "");
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
@@ -62,12 +62,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $mail->isSMTP();
                 $mail->Host       = 'smtp.gmail.com';
                 $mail->SMTPAuth   = true;
-                $mail->Username   = 'officeicedept@gmail.com';
-                $mail->Password   = 'awhiltcnvtplzdhu';
+                $mail->Username   = '';
+                $mail->Password   = '';
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->Port       = 587;
-                $mail->setFrom('officeicedept@gmail.com', 'ICE Payment System');
-                $mail->addAddress('officeicedept@gmail.com', 'ICE Admin');
+                $mail->setFrom('', 'ICE Payment System');
+                $mail->addAddress('', 'ICE Admin');
 
                 $approve_link = "https://documents-ice.page.gd/confirm_payment.php?id={$payment_id}&action=approve";
                 $reject_link  = "https://documents-ice.page.gd/confirm_payment.php?id={$payment_id}&action=reject";
