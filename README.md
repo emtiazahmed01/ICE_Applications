@@ -17,9 +17,9 @@ A comprehensive online document withdrawal and application management system bui
 
 | | |
 |:--:|:--:|
-| ![Home Page](https://github.com/user-attachments/assets/d918f0e9-add0-4e5c-9bd7-3af4b339214f) | ![Dashboard](https://github.com/user-attachments/assets/b3cff6a3-9e11-4417-9aa4-9f70278965f8) |
-| ![Book Catalog](https://github.com/user-attachments/assets/e903bf03-e2ff-483a-a575-056c2bbda142) | ![Notice Board](https://github.com/user-attachments/assets/6f7af5be-77cc-4bd7-9235-71d6065c6352) |
-| ![Forms Page](https://github.com/user-attachments/assets/e2b1ffa7-ebbc-4177-a24d-b690bba0793f) | ![Admin Panel](https://github.com/user-attachments/assets/8bf30a7c-1768-4aa6-8939-5d8c0dc346b2) |
+| ![Home Page](https://github.com/user-attachments/assets/d918f0e9-add0-4e5c-9bd7-3af4b339214f) | ![Dashboard](https://github.com/user-attachments/assets/3ccb78b9-ff28-4e36-b14e-2e750420fd50) |
+| ![Application Generator](https://github.com/user-attachments/assets/aee17713-3a73-4e85-87af-671d4e61f7ce) | ![Make Payment](https://github.com/user-attachments/assets/75f7af1b-8e0f-415e-a700-5ea64e7afd53) |
+| ![Payment Status](https://github.com/user-attachments/assets/bfc20bcd-88f3-4777-9207-d866e0ffb32d) | ![Edit Profile](https://github.com/user-attachments/assets/b0c77488-e302-4438-b813-652d4c7a4313) |
 
 *(More screenshots available in the repository.)*
 
